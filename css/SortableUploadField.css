@@ -1,0 +1,49 @@
+.sortableupload .ss-uploadfield-files.ui-sortable{
+    overflow: hidden;
+}
+
+.sortableupload .ui-sortable .ss-uploadfield-item{
+    cursor:move;
+    border:1px solid #CCCCCC;
+    margin-bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sortableupload .ui-sortable .ss-uploadfield-item .ss-uploadfield-item-info{
+    margin-top: 22px;
+}
+
+.sortableupload .ss-uploadfield-item-sort{
+    display: none;
+    cursor: hand;
+}
+
+.sortableupload .ui-sortable .ss-uploadfield-item:hover{
+    background-image: url("../../framework/images/drag.gif");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.sortableupload .ui-sortable .ss-uploadfield-item.ui-sortable-helper{
+    background-color: #CCCCCC;
+}
+
+.sortableupload .ui-sortable .ss-uploadfield-item-actions{
+    display: none;
+}
+
+.sortableupload .ss-uploadfield-item-actions{
+    min-width: 300px;
+}
+
+.sortableupload .activesort{
+    background-image: url("../../cms/images/tickbox-unticked.gif");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.sortableupload .activesort.active{
+    background-image: url("../../cms/images/tickbox-ticked.gif");
+}
